@@ -107,10 +107,3 @@ AIエージェント導入時の最低説明項目は次の10項目です。
 - 全業界対応の完全標準
 - 法的に厳密な規格
 
-## 公開とフィードバック
-
-公開版は、[公開用manifest](docs/publication/public-repository-manifest.md) に示す docs-only 構成を正本として扱います。作業用private repoをそのままpublic化せず、標準本文、テンプレート、サンプル、公開告知に必要な文書だけを公開用repoへコピーします。
-
-GitHub Release 文、note記事草案、X告知文、LinkedIn告知文、Zenn/Qiita/GitHub Pagesの後続計画は [docs/publication/](docs/publication/) に置いています。
-
-初回公開では、GitHubを正本、noteを背景説明、XとLinkedInを告知入口として扱います。Zenn、Qiita、GitHub Pagesは、初回反応を見た後の後続導線です。公開後は、完全性の追求ではなく、RFP、設計書、監査ログ、RACI、Self-Assessmentへ実際に貼ったときの不足をIssueまたはPull Requestで集め、v1.1で補正します。
