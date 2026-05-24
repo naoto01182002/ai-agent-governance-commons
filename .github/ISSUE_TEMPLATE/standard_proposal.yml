@@ -1,0 +1,60 @@
+name: Standard Proposal
+description: Propose a change to the Minimum Viable Standard or governance principles
+title: "[Standard Proposal]: "
+labels: ["standard", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for proposed changes to the Minimum Viable Standard, standardization principles, or governance structure.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem or gap does this proposal address?
+      placeholder: Describe the governance problem, ambiguity, or practical gap.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Change
+      description: What should be added, changed, removed, or clarified?
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Main Impact Area
+      options:
+        - Minimum Viable Standard
+        - Standardization Principles
+        - Change Control
+        - RFP
+        - Design Template
+        - Audit Log
+        - RACI
+        - Self-Assessment
+        - Human Sovereignty Gate
+        - A2A Responsibility Boundary
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change needed?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Governance Checks
+      options:
+        - label: This proposal does not imply certification, compliance, legal approval, safety guarantee, or external audit.
+          required: true
+        - label: This proposal does not make an AI agent Accountable in RACI.
+          required: true
+        - label: This proposal keeps responsibility, approval, stop-right, rollback, and audit boundaries explicit.
+          required: true
