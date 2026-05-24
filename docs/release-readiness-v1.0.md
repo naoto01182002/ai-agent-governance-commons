@@ -39,13 +39,6 @@ AI Agent Governance Commons v1.0 Public Draft は、Initial public release と�
 | 計画 | `docs/roadmap.md` | recommended | v1.1以降の扱い |
 | 判断 | `docs/decision-log.md` | recommended | 重要判断への公開入口 |
 | 利用条件 | `LICENSE.md` | recommended | 利用条件と免責 |
-| 公開準備 | `docs/publication/public-repository-manifest.md` | recommended | docs-only公開repoに含める対象 |
-| 公開準備 | `docs/publication/public-launch-plan-v1.0.md` | recommended | GitHub、note、X、LinkedIn、後続媒体の役割分担 |
-| 公開準備 | `docs/publication/github-release-v1.0-public-draft.md` | draft | GitHub Release本文の草案 |
-| 公開準備 | `docs/publication/note-announcement-draft-v1.0.md` | draft | note告知記事の草案 |
-| 公開準備 | `docs/publication/x-announcement-draft-v1.0.md` | draft | X告知文の草案 |
-| 公開準備 | `docs/publication/linkedin-announcement-draft-v1.0.md` | draft | LinkedIn告知文の草案 |
-| 公開準備 | `docs/publication/technical-media-followup-plan-v1.0.md` | draft | Zenn、Qiita、GitHub Pagesの後続展開 |
 
 ## 3. 公開前チェック
 
