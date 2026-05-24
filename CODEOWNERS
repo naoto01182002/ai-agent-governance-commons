@@ -1,0 +1,19 @@
+# Default owner for public draft governance documents
+* @naoto01182002
+
+# Core governance and licensing documents
+README.md @naoto01182002
+LICENSE.md @naoto01182002
+SECURITY.md @naoto01182002
+CONTRIBUTING.md @naoto01182002
+CODE_OF_CONDUCT.md @naoto01182002
+
+# Standards and policy
+/docs/policy/ @naoto01182002
+/docs/standards/ @naoto01182002
+
+# Practical templates
+/docs/templates/ @naoto01182002
+
+# GitHub repository governance
+/.github/ @naoto01182002
