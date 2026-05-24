@@ -1,0 +1,56 @@
+name: Template Feedback
+description: Suggest improvements to RFP, design, audit log, RACI, self-assessment, or A2A templates
+title: "[Template Feedback]: "
+labels: ["template", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for feedback on practical templates.
+  - type: dropdown
+    id: template
+    attributes:
+      label: Target Template
+      options:
+        - RFP Governance Addendum
+        - RFP Addendum Short Template
+        - AI Agent Governance Design Template
+        - Audit Log Template
+        - Audit Log Standard
+        - AI Agent RACI Template
+        - A2A Responsibility Boundary Template
+        - A2A Liability Boundary Template
+        - Self-Assessment Checklist
+        - Human Sovereignty Gate Operating Template
+        - Evidence Package Template
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue or Improvement Point
+      description: What is unclear, missing, risky, or hard to use?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_change
+    attributes:
+      label: Suggested Change
+      description: Suggest concrete wording, structure, or table changes if possible.
+    validations:
+      required: false
+  - type: textarea
+    id: practical_context
+    attributes:
+      label: Practical Context
+      description: How would this template be used in RFP, design, audit, RACI, self-assessment, or A2A work?
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Governance Checks
+      options:
+        - label: This feedback does not request certification, compliance judgment, legal advice, safety guarantee, or external audit.
+          required: true
