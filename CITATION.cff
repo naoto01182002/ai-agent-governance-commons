@@ -5,7 +5,6 @@ version: "v1.0 Public Draft"
 date-released: "2026-05-24"
 type: "generic"
 authors:
-  - family-names: "Takata"
     given-names: "Naoto"
 repository-code: "https://github.com/naoto01182002/ai-agent-governance-commons"
 url: "https://github.com/naoto01182002/ai-agent-governance-commons"
