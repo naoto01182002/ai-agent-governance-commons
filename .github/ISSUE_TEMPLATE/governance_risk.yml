@@ -1,0 +1,51 @@
+name: Governance Risk Concern
+description: Report a governance, responsibility, audit, authority, approval, stop-right, rollback, or A2A risk
+title: "[Governance Risk]: "
+labels: ["governance-risk", "needs-review"]
+body:
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk Description
+      description: What governance risk did you find?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Risk Area
+      options:
+        - Authority
+        - Human approval
+        - Stop right
+        - Rollback or cancellation
+        - Audit log
+        - RACI
+        - A2A responsibility boundary
+        - Evidence package
+        - Certification or compliance over-claim
+        - Legal or safety misunderstanding
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential Impact
+      description: What could go wrong in practical enterprise use?
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested Correction
+      description: Suggest wording, structure, or template changes if possible.
+    validations:
+      required: false
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure Check
+      options:
+        - label: This issue does not contain secrets, credentials, private customer information, or confidential system details.
+          required: true
