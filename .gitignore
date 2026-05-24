@@ -1,0 +1,21 @@
+# Local agent/session context
+AGENTS.md
+.claude/
+.codex/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
