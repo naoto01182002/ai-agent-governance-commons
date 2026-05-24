@@ -56,7 +56,6 @@ v1.0 Public Draft は次の3条件を満たした時点で一区切りとしま�
 | Evidence Package | [docs/templates/ai-agent-evidence-package-template.md](docs/templates/ai-agent-evidence-package-template.md) | RFP、設計書、監査ログ、RACI、Self-Assessmentの証跡を束ねる |
 | 用語集 | [docs/glossary.md](docs/glossary.md) | 主要概念の解釈ブレを減らす |
 | ロードマップ | [docs/roadmap.md](docs/roadmap.md) | v1.0 Public Draft、v1.1、v2.0の区切りを管理する |
-| 公開計画 | [docs/publication/public-launch-plan-v1.0.md](docs/publication/public-launch-plan-v1.0.md) | GitHub、note、X、LinkedIn、後続媒体の役割を分ける |
 | Decision Log | [docs/decision-log.md](docs/decision-log.md) | 重要判断への公開入口 |
 
 ## 読者別の使い方
