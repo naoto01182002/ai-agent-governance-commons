@@ -81,20 +81,6 @@ v2.0 では、v1.0 Public Draft と v1.1 で得た外部フィードバックを
 - 外部表示ルールの明確化
 - 参照実装ではなく、参照テンプレートとしての配布形式整備
 
-## リリース手順案
-
-v1.0 Public Draft をリリースする場合は、以下を確認する。
-
-1. `README.md` からv1.0 Public Draftパッケージ全体へ辿れる
-2. `docs/standards/minimum-viable-standard-v1.0.md` が必須10項目の正本として読める
-3. RFP、設計書、監査ログ、RACI、A2A、Self-Assessment の各テンプレートが相互参照できる
-4. `docs/glossary.md` で主要用語を確認できる
-5. `docs/roadmap.md` でv1.1以降へ送る論点が分かる
-6. Self-Assessment や外部表示で、認証、適合、準拠、安全保証と誤表示しない
-7. `docs/release-readiness-v1.0.md` でv1.0 Public Draft対象文書と対象外を確認する
-8. `LICENSE.md` で利用条件と非認証表示を確認する
-9. GitHub release またはタグでは `v1.0 Public Draft = Minimum Viable Standard + 実務テンプレート一式` と説明する
-
 ## 継続判断
 
 v1.0 Public Draft が揃った後は、考えるフェーズを延長し続けない。
