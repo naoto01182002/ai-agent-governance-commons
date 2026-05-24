@@ -1,0 +1,33 @@
+name: Bug or Repository Maintenance
+description: Report broken links, repository maintenance issues, typos, or formatting problems
+title: "[Bug]: "
+labels: ["bug", "maintenance"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken or incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: File, path, section, link, or command.
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+      description: What should happen instead?
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other relevant details.
+    validations:
+      required: false
