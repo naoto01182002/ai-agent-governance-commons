@@ -1,0 +1,42 @@
+name: Wording Clarification
+description: Report unclear, misleading, or over-claiming wording
+title: "[Wording]: "
+labels: ["wording", "clarification"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: File, section, heading, or quoted wording.
+      placeholder: docs/... section ...
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+      description: Why is the wording unclear, misleading, or risky?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_wording
+    attributes:
+      label: Suggested Wording
+      description: Optional replacement wording.
+    validations:
+      required: false
+  - type: dropdown
+    id: risk_type
+    attributes:
+      label: Risk Type
+      options:
+        - Certification or compliance over-claim
+        - Legal advice misunderstanding
+        - Safety guarantee misunderstanding
+        - Responsibility boundary ambiguity
+        - Authority or approval ambiguity
+        - Auditability ambiguity
+        - General readability
+        - Other
+    validations:
+      required: true

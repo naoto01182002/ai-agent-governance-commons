@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use AI Agent Governance Commons, please cite it using the metadata from this file."
+title: "AI Agent Governance Commons"
+version: "v1.0 Public Draft"
+date-released: "2026-05-24"
+type: "generic"
+authors:
+  - family-names: "Takata"
+    given-names: "Naoto"
+repository-code: "https://github.com/naoto01182002/ai-agent-governance-commons"
+url: "https://github.com/naoto01182002/ai-agent-governance-commons"
+abstract: "A public draft standard and practical template set for AI agent governance, including authority, audit logs, RACI, human approval, stop rights, rollback, self-assessment, and A2A responsibility boundaries."
+keywords:
+  - AI governance
+  - AI agents
+  - enterprise AI
+  - RFP
+  - audit log
+  - RACI
+  - responsibility boundary
+license: "CC-BY-4.0"
