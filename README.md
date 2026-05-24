@@ -69,8 +69,6 @@ v1.0 Public Draft は次の3条件を満たした時点で一区切りとしま�
 
 ## リリース状態
 
-v1.0 Public Draft の公開可否と対象文書は [Release Readiness v1.0 Public Draft](docs/release-readiness-v1.0.md) で確認します。
-
 このリポジトリの文書とテンプレートは、特に記載がない限り CC BY 4.0 で利用できます。スクリプトは MIT License です。詳細は [LICENSE.md](LICENSE.md) を参照してください。
 
 この標準を参照したことは、認証、適合、準拠、安全保証、外部監査済みを意味しません。
